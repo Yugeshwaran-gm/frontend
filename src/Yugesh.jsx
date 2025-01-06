@@ -1,19 +1,13 @@
 import React from "react";
 import "./App.css";
-import Register from "./components/Register";
 // import SlamBook from "./components/Slambook/Slambook";
-import Hookfun from "./components/Hooks/Hookfun";
-import List from "./components/list/List"
-import ContactUs from "./components/Contactus/ContactUs";
-import Aboutus from "./components/Aboutus/Aboutus";
 import Home from "./components/Home/Home";
-import Use from "./components/Hooks/Useeffect";
 import bookImage from "./assets/tvkFlag.jpg";
 import { Link, Route,BrowserRouter as Router, Routes } from "react-router-dom";
-import Usereffun from "./components/Hooks/Usereffun";
-import Namep from "./components/Hooks/Namep";
-import Hen from "./components/Props_drilling/Hen";
-import Chicken from "./components/Props_drilling/Chicken";
+// import Usereffun from "./components/Hooks/Usereffun";
+// import Namep from "./components/Hooks/Namep";
+// import Hen from "./components/Props_drilling/Hen";
+// import Chicken from "./components/Props_drilling/Chicken";
 import CreateUser from "./userManagement/createUser";
 import NewUser from "./userManagement/newUser";
 import DeleteUser from "./userManagement/deleteUser";
