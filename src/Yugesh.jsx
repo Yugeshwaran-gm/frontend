@@ -8,11 +8,11 @@ import { Link, Route,BrowserRouter as Router, Routes } from "react-router-dom";
 // import Namep from "./components/Hooks/Namep";
 // import Hen from "./components/Props_drilling/Hen";
 // import Chicken from "./components/Props_drilling/Chicken";
-import CreateUser from "./userManagement/CreateUser.jsx";
+import CreateUser from "./userManagement/createUser.jsx";
 //import NewUser from "./userManagement/NewUser.jsx";
 import DeleteUser from "./userManagement/DeleteUser.jsx";
 //import RenameUser from "./userManagement/renameUser";
-import UpdateUser from "./userManagement/updateUser";
+import UpdateUser from "./userManagement/updateUser.jsx";
 import User from "./userManagement/User";
 
 function Yugesh() {
