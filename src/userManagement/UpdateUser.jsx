@@ -9,7 +9,7 @@ const UpdateUser = () => {
   const nav = useNavigate();
   const Updateus =  (e) => {
     e.preventDefault(); 
-    axios.put(`http://localhost:3000/api/user/update/${email}`,{
+    axios.put(`https://backend-4o45.onrender.com/api/user/update/${email}`,{
       name,
       age,
       email

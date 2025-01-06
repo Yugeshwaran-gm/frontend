@@ -10,7 +10,7 @@ const CreateUser = () => {
   const nav = useNavigate();
   const submit =(e)=>{
     e.preventDefault();
-    axios.post("http://localhost:3000/api/user/create",{
+    axios.post("https://backend-4o45.onrender.com/api/user/create",{
       name,
       age,
       email

@@ -5,7 +5,7 @@ import axios from 'axios'
 const User = () => {
     const [user, setUser] = useState([])
     useEffect(() => {
-      axios.get("http://localhost:3000/api/user/fetch")
+      axios.get("https://backend-4o45.onrender.com/api/user/fetch")
       .then(result=>{
         setUser(result.data.users)
     })
