@@ -8,11 +8,11 @@ import { Link, Route,BrowserRouter as Router, Routes } from "react-router-dom";
 // import Namep from "./components/Hooks/Namep";
 // import Hen from "./components/Props_drilling/Hen";
 // import Chicken from "./components/Props_drilling/Chicken";
-import CreateUser from "./userManagement/CreateUser.jsx";
-import NewUser from "./userManagement/NewUser.jsx";
+import CreateUser from "./userManagement/createUser.jsx";
+//import NewUser from "./userManagement/NewUser.jsx";
 import DeleteUser from "./userManagement/DeleteUser.jsx";
 //import RenameUser from "./userManagement/renameUser";
-import UpdateUser from "./userManagement/UpdateUser";
+import UpdateUser from "./userManagement/updateUser";
 import User from "./userManagement/User";
 
 function Yugesh() {
@@ -35,8 +35,8 @@ function Yugesh() {
           <Link to="/Usereffun" className="nav-link">REF</Link>
           <Link to="/Namep" className="nav-link">Name</Link>
           <Link to="/Hen" className="nav-link">Hen</Link>
-          <Link to="/Chicken" className="nav-link">Chicken</Link> */}
-          <Link to="/newUser" className="nav-link">NewUser</Link>
+          <Link to="/Chicken" className="nav-link">Chicken</Link> 
+          <Link to="/newUser" className="nav-link">NewUser</Link>*/}
           <Link to="/createUser" className="nav-link">Create User</Link>
           <Link to="/deleteUser" className="nav-link">Delete User</Link>
           <Link to="/updateUser" className="nav-link">Update User</Link>
@@ -52,8 +52,8 @@ function Yugesh() {
         <Route path="/Usereffun" element={<Usereffun />} />
         <Route path="/Namep" element={<Namep />} />
         <Route path="/chicken" element={<Chicken />} />
-        <Route path="/Hen" element={<Hen name="Food" />} /> */}
-        <Route path="/newUser" element={<NewUser />} />
+        <Route path="/Hen" element={<Hen name="Food" />} /> 
+        <Route path="/newUser" element={<NewUser />} />*/}
         <Route path="/createUser" element={<CreateUser />} />
         <Route path="/deletUser" element={<DeleteUser />} />
         <Route path="/updateUser" element={<UpdateUser />} />
